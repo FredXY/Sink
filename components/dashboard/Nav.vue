@@ -3,7 +3,7 @@ const route = useRoute()
 </script>
 
 <template>
-  <nav class="flex justify-between">
+  <nav class="flex justify-between" style="display:none">
     <Tabs
       v-if="route.path !== '/dashboard/link'"
       :default-value="route.path"
