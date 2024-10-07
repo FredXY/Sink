@@ -22,7 +22,7 @@ function changeDate(time) {
 </script>
 
 <template>
-  <main class="space-y-6">
+  <main class="space-y-6" style="display:none;">
     <DashboardNav>
       <template
         v-if="link"
