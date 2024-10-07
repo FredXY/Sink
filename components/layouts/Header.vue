@@ -24,7 +24,7 @@ const showMenu = ref(false)
               <img
                 src="https://cpipg.com/themes/cpipg/assets/images/CPIPG_logo_RGB.svg"
                 alt="CPIPG Logo"
-                class="w-full h-full rounded-full"
+                class="w-full h-full"
               >
             </span>
             <span class="mx-2">CPI Links</span>
@@ -50,7 +50,7 @@ const showMenu = ref(false)
                 <img
                   src="https://cpipg.com/themes/cpipg/assets/images/CPIPG_logo_RGB.svg"
                   alt="CPIPG Logo"
-                  class="w-full h-full rounded-full"
+                  class="w-full h-full"
                 >
               </span>
               <span class="mx-2">CPI Links</span>
