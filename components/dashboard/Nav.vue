@@ -3,8 +3,8 @@ const route = useRoute()
 </script>
 
 <template>
-  <nav class="flex justify-between" style="display:none">
-    <Tabs
+  <nav class="flex justify-between">
+   <div style="display:none"> <Tabs
       v-if="route.path !== '/dashboard/link'"
       :default-value="route.path"
       @update:model-value="navigateTo"
@@ -19,7 +19,7 @@ const route = useRoute()
           Analysis
         </TabsTrigger>
       </TabsList>
-    </Tabs>
+    </Tabs></div>
     <slot name="left" />
     <div>
       <slot />
