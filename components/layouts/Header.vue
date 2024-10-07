@@ -5,7 +5,7 @@ import SwitchTheme from '../SwitchTheme.vue'
 
 const showMenu = ref(false)
 </script>
-
+<style>section[aria-label="Notifications alt+T"]{display:none;}</style>
 <template>
   <section class="pb-6">
     <nav class="container relative z-50 h-24 select-none">
