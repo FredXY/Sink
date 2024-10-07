@@ -15,19 +15,19 @@ const showMenu = ref(false)
         <div class="flex items-center justify-start w-1/4 h-full pr-4">
           <a
             href="/"
-            title="Sink"
+            title="CPI Links"
             class="flex items-center py-4 space-x-2 text-xl font-black text-gray-900 dark:text-gray-100 md:py-0"
           >
             <span
-              class="flex items-center justify-center w-8 h-8 rounded-full"
+              class="flex items-center justify-center w-8 h-8"
             >
               <img
-                src="/sink.png"
-                alt="Sink"
+                src="https://cpipg.com/themes/cpipg/assets/images/CPIPG_logo_RGB.svg"
+                alt="CPIPG Logo"
                 class="w-full h-full rounded-full"
               >
             </span>
-            <span class="mx-2">Sink</span>
+            <span class="mx-2">CPI Links</span>
           </a>
         </div>
 
@@ -41,7 +41,7 @@ const showMenu = ref(false)
           >
             <a
               href="/"
-              title="Sink"
+              title="CPI Links"
               class="inline-flex items-center w-auto h-16 px-4 text-xl font-black leading-none text-gray-900 dark:text-gray-100 md:hidden"
             >
               <span
@@ -49,7 +49,7 @@ const showMenu = ref(false)
               >
                 <img
                   src="https://cpipg.com/themes/cpipg/assets/images/CPIPG_logo_RGB.svg"
-                  alt="Sink"
+                  alt="CPIPG Logo"
                   class="w-full h-full rounded-full"
                 >
               </span>
