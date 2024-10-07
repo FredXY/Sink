@@ -3,7 +3,7 @@ import { AreaChart } from 'lucide-vue-next'
 import { GitHubIcon } from 'vue3-simple-icons'
 import heroImg from '@/assets/images/hero.svg?raw'
 
-const { title, description } = useAppConfig()
+const { title } = useAppConfig()
 </script>
 
 <template>
@@ -14,10 +14,10 @@ const { title, description } = useAppConfig()
       <h1
         class="text-5xl font-bold lg:text-6xl xl:text-7xl lg:tracking-tight xl:tracking-tighter"
       >
-        {{ title }}
+        Link Shortener 
       </h1>
       <p class="max-w-xl mt-4 text-lg text-slate-600">
-        {{ description }}
+        Deployment of {{ title }}
       </p>
       <div class="flex flex-col gap-3 mt-6 sm:flex-row">
         <HomeLink
@@ -32,20 +32,7 @@ const { title, description } = useAppConfig()
           />
           Dashboard
         </HomeLink>
-        <HomeLink
-          size="lg"
-          type="outline"
-          rel="noopener"
-          href="https://github.com/ccbikai/sink"
-          title="Github"
-          class="flex items-center justify-center gap-1"
-          target="_blank"
-        >
-          <GitHubIcon
-            class="w-5 h-5"
-          />
-          GitHub Repo
-        </HomeLink>
+       
       </div>
     </div>
     <div class="hidden py-6 md:block">
