@@ -17,7 +17,7 @@ const { title } = useAppConfig()
         Link Shortener 
       </h1>
       <p class="max-w-xl mt-4 text-lg text-slate-600">
-        Deployment of Sink link shotener
+        Deployment of Sink link shortener
       </p>
       <div class="flex flex-col gap-3 mt-6 sm:flex-row">
         <HomeLink
